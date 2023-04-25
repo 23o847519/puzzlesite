@@ -20,8 +20,8 @@ main {
 	padding: 20px;
 	margin: 50px auto;
 	border: 2px solid white;
-	width: 2000px;
-	height: 1000px;
+	width: 400px;
+	height: 200px;
 	box-sizing: border-box;
   color: green;
 }
