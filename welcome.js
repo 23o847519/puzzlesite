@@ -25,7 +25,10 @@ var lines = [
   }
   
   var puzzleBtn = document.getElementById("puzzle-btn");
+if (puzzleBtn) {
   puzzleBtn.addEventListener("click", function() {
     window.location.href = "puzzle.html";
   });
-  
+} else {
+  console.error("Element with ID 'puzzle-btn' not found.");
+}
